@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desire-gulp</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<!--  Первый блок меню -->
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a href="#" class="menu__list-link">About</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#" class="menu__list-link">Gallery</a>
+							</li>
+						</ul>
+					</nav>
+					<a href="#" class="logo">
+						<img src="images/logo.png" alt="logo">
+					</a>
+					<!--  Второй блок меню -->
+					<nav class="menu">
+						<ul class="menu__list">
+							<li class="menu__list-item">
+								<a href="#" class="menu__list-link menu__list-link--active">Blog</a>
+							</li>
+							<li class="menu__list-item">
+								<a href="#" class="menu__list-link">Contact</a>
+							</li>
+						</ul>
+					</nav>
+					<!-- Кнопка  -->
+					<button class="header__btn">
+						<img src="images/icon_menu.svg" alt="icon menu">
+					</button>
+					<!-- Кнопка меню-бургера -->
+					<button class="header__btn-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</button>
+					<!-- Меню, появляющееся при нажатии на символ-меню: -->
+					<div class="rightside-menu rightside-menu--close">
+						<!-- закрывающий символ(крестик) -->
+						<button class="rightside-menu__close">
+							<img src="images/icons-svg/close.svg" alt="">
+						</button>
+						<div class="rightside-menu__content">
+							<a href="#" class="rightside-menu__logo">
+								<img src="images/logo-big.png" alt="">
+							</a>
+							<h4 class="rightside-menu__title">Furniture for life</h4>
+							<p class="rightside-menu__text">Sustainable hot chicken skateboard, dreamcatcher meggings actually
+								squid. Slow-carb everyday carry +1 art party microdosing, put a bird on it brooklyn</p>
+							<img class="rightside-menu__images" src="images/content/rightside-img.jpg" alt="images">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="breadcrumbs">
+				<div class="container">
+					<ul class="breadcrumbs__list">
+
+						<li class="breadcrumbs__item">
+							<a href="#" class="breadcrumbs__link">Home</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a href="#" class="breadcrumbs__link">Blog</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+			<section class="blog blog-one">
+				<div class="container">
+					<div class="blog__inner">
+						<div class="blog__items">
+							<div class="blog__item blog-one__item">
+								<img src="images/blog/blog-1.jpg" alt="image" class="blog__item-img">
+								<div class="blog__item-info">
+									<span class="blog__item-date">August 15, 2020</span> |
+									<a href="" class="blog__item-author">by Ann Summers</a> |
+									<a href="" class="blog__item-theme">Bedroom Furniture</a>
+								</div>
+								<a class="blog__item-link" href="#">
+									<h3 class="blog__item-title">Red selfies edison bulb four dollar toast humblebrag for the
+										furniture</h3>
+								</a>
+								<div class="blog-one__text">
+									<p class="blog__item-text">А что будет завтра?
+										А завтра - зима
+										Наполнит теплом и уютом дома,
+										Опустится снегом на землю и крыши,
+										В людские сердца постучится неслышно.
+
+										Всё станет волшебным, до боли родным,
+										Часы на стене, фотографии в рамках,
+										Ты вспомнишь про ёлку и запах сосны,
+										Как дети со смехом катались на санках.
+
+										Миганье огней, каждый радостный вздох,
+										Как в окна смотрела метель, завывая,
+										И верило сердце, что мир был неплох,
+										Душа согревалась малиновым чаем,
+
+										Ты вспомнишь мороз, во дворе кутерьма,
+										Снежинки летят неизвестно откуда,
+										А что будет завтра?
+										А завтра зима.
+										Застынут часы в ожидании чуда.<br>
+
+										Алеся Синеглазая
+									</p>
+									<blockquote>
+										“Люби меня под шёпот звёзд,
+										Под гул грядущих перемен,
+										Касаясь пальцами волос,
+										Захватывая губы в плен.”
+										<div class="blog__blockquote-author">Алеся Синеглазая</div>
+									</blockquote>
+									<p>
+										Ко мне Зима пожаловала в гости,
+										Я вышла на порог её встречать.
+										И снег в ладони лёг пушистой горстью,
+										И сказки детства стали оживать.
+
+										Зашелестели книжные страницы,
+										Разбуженные древним колдовством,
+										Зима влетела в двери снежной птицей,
+										На миг блеснула лунным серебром.
+
+										С её приходом сделалось уютно,
+										Повсюду загорелись огоньки,
+										И в воздухе почувствовалось смутно
+										Касание невидимой руки.
+
+										Запахло чем-то пряным и душистым,
+										Округа озарилась сотней искр,
+										И чайник на плите вскипел со свистом,
+										И зазвенел приветливо сервиз.
+
+										Послышался загадочный звук флейты,
+										Скрип половицы, шорох под столом,
+										Как будто бы рождественские эльфы
+										Прокрались незаметно в спящий дом.
+
+										Решили за уборку взяться с жаром,
+										А после стали ёлку наряжать,
+										Замешивать воздушную опару,
+										Рогалики с повидлом выпекать.
+
+										Ах, зимушка-зима, снежинок бал,
+										Передо мной ты разной представала,
+										То королевой сказочных зеркал,
+										То мастерицей, шьющей одеяла.
+
+										Люблю твой тайный маленький мирок,
+										Когда темнеет в доме полусонном,
+										И к небу поднимается дымок,
+										И белый снег как чистый лист альбомный.
+
+										За окнами огромный снеговик,
+										Украшен двор, протоптаны дорожки.
+										Я надеваю тёплый пуховик
+										И становлюсь похожей на матрёшку.
+
+										Летят минуты, праздник на носу,
+										На кухне пироги готовы сдобные.
+										А где-то в заколдованном лесу
+										Медведи тихо дремлют под сугробами.
+
+										Катились с горки детские салазки,
+										Хрустальными ночами снились сны,
+										Зима ко мне пришла волшебной сказкой
+										И погостить осталась до весны.<br>
+
+										Алеся Синеглазая
+									</p>
+								</div>
+								<div class="blog-one__tags">
+									<h4 class="blog-one__tags-title">Tags</h4>
+									<a href="#" class="blog-one__tags-link">Зима</a>
+									<a href="#" class="blog-one__tags-link">Весна</a>
+									<a href="#" class="blog-one__tags-link">Лето</a>
+									<a href="#" class="blog-one__tags-link">Осень</a>
+								</div>
+								<div class="blog-one__links">
+									<a href="#" class="blog-one__link blog-one__link-prev">Назад</a>
+									<a href="#" class="blog-one__link blog-one__link-next">Вперёд</a>
+								</div>
+							</div>
+							<div class="blog-one__comments">
+								<h4 class="blog-one__comments-title">Comments:</h4>
+								<div class="blog-one__comments-item">
+									<img src="images/blog/avatar.jpg" alt="avatar" class="log-one__comments-avatar">
+									<div class="blog-one__comments-info">
+										<p class="blog-one__comments-name">Алеся Синеглазая</p>
+										<p class="blog-one__comments-date">18 ноября 2021г</p>
+										<p class="blog-one__comments-text">Декабрь похож на ежика пугливого,
+											Как приманить зверька такого в дом?
+											Наверное, улыбками счастливыми,
+											И светом ламп, и чаем с молоком.
+
+											Приманивать декабрь — задача сложная,
+											Здесь нужно ритуалы соблюдать,
+											Ждать праздника и верить в невозможное,
+											Печь булочки и ёлку наряжать.
+
+											Достать из шифоньера свитер вязанный,
+											Увидеть розы белые во сне,
+											Всё это было в точности предсказано —
+											Мотивы вальса, иней на окне.
+
+											Уютнее, милее станет комната,
+											Тихонько замурлычет рыжий кот,
+											Вот так, в своём осеннем зябком омуте,
+											Ты различишь тепло декабрьских нот.
+
+											И очень скоро, может быть сегодня,
+											Похожие на маленьких ежат,
+											Приманенные эхом новогодним,
+											К нам на порог снежинки прилетят.
+										</p>
+									</div>
+									<button class="blog-one__comments-reply">Reply</button>
+								</div>
+							</div>
+							<form class="blog-one__form">
+								<h4 class="blog-one__form-title">Написать комментарий</h4>
+								<textarea class="blog-one__form-textarea" placeholder="Ваш комментарий"></textarea>
+								<input class="blog-one__form-input" type="text" placeholder="Ваше имя">
+								<input class="blog-one__form-input" type="email" placeholder="Ваш email">
+								<label class="blog-one__form-label">
+									<input class="blog-one__form-labelinput" type="checkbox">
+									Запомнить
+								</label>
+								<button class="blog-one__form-btn" type="submit">Отправить</button>
+							</form>
+						</div>
+						<aside class="aside">
+							<form class="aside__search">
+								<input class="aside__search-input" type="text" placeholder="search">
+								<button class="aside__search-btn" type="submit">
+									<img src="images/icons-svg/search-icon.svg" alt="image">
+								</button>
+							</form>
+							<div class="blog__category">
+								<h6 class="blog__category-title">Categories</h6>
+								<ul class="blog__category-list">
+									<li class="blog__category-item">
+										<a href="#" class="blog__category-link">Dining room (1)</a>
+									</li>
+									<li class="blog__category-item">
+										<a href="#" class="blog__category-link">Office furniture (12)</a>
+									</li>
+									<li class="blog__category-item">
+										<a href="#" class="blog__category-link">Simple interior design (2)</a>
+									</li>
+									<li class="blog__category-item">
+										<a href="#" class="blog__category-link">Design (4)</a>
+									</li>
+									<li class="blog__category-item">
+										<a href="#" class="blog__category-link">Bedroom Furniture (1)</a>
+									</li>
+								</ul>
+							</div>
+							<div class="recent-posts">
+								<h6 class="recent-posts__title">Recent Posts</h6>
+								<ul class="recent-posts__list">
+									<li class="recent-posts__item">
+										<a href="#" class="recent-posts__item-title">Cred selfies edison bulb four dollar toast
+											humblebrag</a>
+										<span class="recent-posts__item-date">August 10, 2020</span>|
+										<a href="#" class="recent-posts__author">by Ann Summers</a>
+									</li>
+									<li class="recent-posts__item">
+										<a href="#" class="recent-posts__item-title">Cred selfies edison bulb four dollar toast
+											humblebrag</a>
+										<span class="recent-posts__item-date">August 10, 2020</span>|
+										<a href="#" class="recent-posts__author">by Ann Summers</a>
+									</li>
+									<li class="recent-posts__item">
+										<a href="#" class="recent-posts__item-title">Cred selfies edison bulb four dollar toast
+											humblebrag</a>
+										<span class="recent-posts__item-date">August 10, 2020</span>|
+										<a href="#" class="recent-posts__author">by Ann Summers</a>
+									</li>
+								</ul>
+							</div>
+							<div class="blog__tags">
+								<h6 class="blog__tags-title">Tags</h6>
+								<a href="#" class="blog__tags-link">Dining room futniture</a>
+								<a href="#" class="blog__tags-link">Chair</a>
+								<a href="#" class="blog__tags-link">Table</a>
+								<a href="#" class="blog__tags-link">Bedroom</a>
+								<a href="#" class="blog__tags-link">Office Furniture</a>
+							</div>
+							<ul class="blog__social">
+								<li class="blog__social-item">
+									<a href="#" class="blog__social-link">
+										<img src="images/icons-svg/facebook.svg" alt="Facebook" class="contact__social-img">
+									</a>
+								</li>
+								<li class="blog__social-item">
+									<a href="#" class="blog__social-link">
+										<img src="images/icons-svg/instagram.svg" alt="Instagram" class="contact__social-img">
+									</a>
+								</li>
+								<li class="blog__social-item">
+									<a href="#" class="blog__social-link">
+										<img src="images/icons-svg/pinterest.svg" alt="pinterest" class="contact__social-img">
+									</a>
+								</li>
+								<li class="blog__social-item">
+									<a href="#" class="blog__social-link">
+										<img src="images/icons-svg/whatsapp.svg" alt="whatsapp" class="contact__social-img">
+									</a>
+								</li>
+								<li class="blog__social-item">
+									<a href="#" class="blog__social-link">
+										<img src="images/icons-svg/youtube.svg" alt="Youtube" class="contact__social-img">
+									</a>
+								</li>
+							</ul>
+						</aside>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__content">
+				<div class="container">
+					<div class="footer__inner">
+						<div class="footer__info">
+							<h6 class="footer__info-title">Contact Us</h6>
+							<p class="footer__info-text">
+								Keffiyeh poutine etsy, paleo cray put a bird on it microdosing schlitz you probably occupy
+							</p>
+							<a href="mailto:ouremailaddress@email.com" class="footer__info-email">ouremailaddress@email.com</a>
+							<form class="footer__form">
+								<input class="footer__form-input" type="email" placeholder="Subscribe by email">
+								<button class="footer__form-button" type="submit">Send</button>
+							</form>
+						</div>
+						<ul class="footer__social">
+							<li class="footer__social-item">
+								<a href="#" class="footer__social-link footer__social-link--facebook">Facebook</a>
+							</li>
+							<li class="footer__social-item">
+								<a href="#" class="footer__social-link footer__social-link--instagram">Instagram</a>
+							</li>
+							<li class="footer__social-item">
+								<a href="#" class="footer__social-link footer__social-link--pinterest">Pinterest</a>
+							</li>
+							<li class="footer__social-item">
+								<a href="#" class="footer__social-link footer__social-link--whatsapp">WhatsApp</a>
+							</li>
+							<li class="footer__social-item">
+								<a href="#" class="footer__social-link footer__social-link--youtube">Youtube</a>
+							</li>
+						</ul>
+						<nav class="footer__menu">
+							<ul class="footer__menu-list">
+								<li class="footer__menu-item">
+									<a href="#" class="footer__menu-link">Delivery</a>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#" class="footer__menu-link">FAQ</a>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#" class="footer__menu-link">Help</a>
+								</li>
+								<li class="footer__menu-item">
+									<a href="#" class="footer__menu-link">More About Us</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copyright">
+				<div class="container">
+					<p>674 Gonzales Drive. Washington, PA 15301</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+
+
+	<script src="js/main.min.js"></script>
+</body>
+
+</html>
